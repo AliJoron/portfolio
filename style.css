@@ -1,0 +1,192 @@
+/* All nav items */
+
+.thea
+{
+    animation: fadeInAnimation ease 3s;
+}
+.thea:hover
+{
+    animation: shake 3s;
+    animation-iteration-count: infinite;
+}
+
+.nav_items
+{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 1000;
+    animation: fadeInAnimation ease 10s;
+}
+#about
+{
+    
+    padding-right: 25;
+    color:rgb(24, 9, 78);
+}
+#skillsandtools
+{
+    padding-right: 25;
+    color: thistle;
+}
+#work
+{
+    padding-right: 25;
+    color: rgb(3, 70, 12);
+}
+#contact
+{
+    padding-right: 25;
+    color:springgreen;
+}
+#resume
+{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-right: 20;
+    padding-top: 2;
+    padding-bottom: 2;
+    margin-top: 3;
+}
+.btn:hover
+{
+    background-color: rgb(7, 162, 173);
+}
+.name
+{
+    padding-left: 15%;
+    padding-top: 15%;
+    background-color: #48d8a4;
+    padding-bottom: 15.2%;
+}
+.myname
+{
+    animation: fadeInAnimation ease 10s;
+    font-family: 'Supermercado One', cursive;
+    color: rgb(2, 2, 43);
+}
+.ali
+{
+    animation: fadeInAnimation ease 3s;
+    font-family: 'Supermercado One', cursive;
+    font-size: 7vw;
+    color: wheat;
+}
+.do
+{
+    animation: fadeInAnimation ease 15s;
+    font-family: 'Anton', sans-serif;
+    font-size: 4vw;
+}
+.me
+{
+    animation: fadeInAnimation ease 15s;
+    font-family: 'Anton', sans-serif;
+    font-size: 15px;
+}
+.about
+{
+    background-color:#f6e6e0;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+}
+.second_row
+{
+    padding-top: 10%;
+}
+.webpic
+{
+    animation: shaky 5s infinite ease-in-out;
+
+}
+.card:hover
+{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(8, 72, 116, 0.938), 0 4px 8px hsla(187, 97%, 47%, 0.959);
+    transition:  0.4s;
+}
+.skills
+{
+    background-color: #eeb4aa;
+    padding-left: 15%;
+    padding-top: 6%;
+    
+}
+.skills_title
+{
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.5em;
+}
+.skills_title2
+{
+    color: #1c2273;
+    font-family: "Crimson Text", serif;
+    font-size: 2.1em;
+}
+.skills_p_title
+{
+font-size: 1.2em;
+line-height: 1.55;
+}
+.icon_box
+{
+    text-align: center;
+    padding-right: 20%;
+
+}
+.icon_image
+{
+    color: white;
+    font-size: 6em;
+    height: 1em;
+}
+
+.icon_name
+{
+    
+    font-size: 1em;
+    font-family: "Mada", sans-serif;
+    color: #656565;
+}
+
+@keyframes fadeInAnimation
+ {
+    0%
+    {
+        opacity: 0;
+    }
+    100% 
+    {
+        opacity: 1;
+        
+    }
+}
+@keyframes shake
+{
+0% { transform: translate(1px, 1px) rotate(0deg); }
+10% { transform: translate(-1px, -2px) rotate(-1deg); }
+20% { transform: translate(-3px, 0px) rotate(1deg); }
+30% { transform: translate(3px, 2px) rotate(0deg); }
+40% { transform: translate(1px, -1px) rotate(1deg); }
+50% { transform: translate(-1px, 2px) rotate(-1deg); }
+60% { transform: translate(-3px, 1px) rotate(0deg); }
+70% { transform: translate(3px, 1px) rotate(-1deg); }
+80% { transform: translate(-1px, -1px) rotate(1deg); }
+90% { transform: translate(1px, 2px) rotate(0deg); }
+100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+@keyframes shaky
+{
+    10%{transform: translateX(1em)}
+    20%{transform: translateX(-1em);}
+
+/* 50% { transform: translate(12em,12em) }
+60% { transform: translate(12em,12em) }
+70% { transform: translate(12em,12em)}
+80% { transform: translate(12em,12em) }
+90% { transform: translate(12em,12em)}
+100% { transform: translate(12em,12em) } */
+}
+
