@@ -667,3 +667,14 @@ opacity: 100;
        width: 8em !important;
    }
 }
+
+/* for phones with max width of 450px */
+
+@media (max-width:450px) 
+{
+    .work_img
+    {
+        height: 50%;
+    }
+}
+
