@@ -1,3 +1,4 @@
+alert( window.devicePixelRatio)
 // run check screen functio
 
 checkscreen()
