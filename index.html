@@ -10,14 +10,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Comforter&family=Indie+Flower&family=Josefin+Sans:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300&family=Supermercado+One&family=Syne+Tactile&family=Yellowtail&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="pics/ali.ico">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/00c87fa6d8.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+  <!-- ------------------------------------ -->
  <!-- This is for the navbar -->
-    <nav class="navbar fixed-top navbar-expand-lg bg-primary navbar-dark bg-opacity-75">
+ <!-- ---------------------------------------------- -->
+    <nav id ="navigate" class="navbar fixed-top navbar-expand-lg bg-primary navbar-dark bg-opacity-75">
         <div class="container-fluid">
           
           <a class="navbar-brand" href="#"> <img class="thea" src="pics/ali.png" width="40" height="40" alt=""></a>
@@ -33,22 +35,24 @@
                 <a  id="skillsandtools" class="nav-link active nav_items" aria-current="page" href="#skillsec" >Skills & Tools</a>
               </li>
               <li class="nav-item ms-auto">
-                <a  id="work" class="nav-link active nav_items" aria-current="page" href="#" >Work</a>
+                <a  id="work" class="nav-link active nav_items" aria-current="page" href="#worksec" >Work</a>
               </li>
               <li class="nav-item ms-auto">
-                <a  id="contact" class="nav-link active nav_items" aria-current="page" href="#" >Contact</a>
+                <a  id="contact" class="nav-link active nav_items" aria-current="page" href="#contactme" >Contact</a>
               </li>
               <li class="nav-item ms-auto">
-                <a id="resume" class="btn btn-outline-dark nav_items" href="#" role="button">Resume</a>
+                <a id="resume" class="btn btn-outline-dark nav_items" href="https://drive.google.com/file/d/1B9umI4zcoubUN6TDPs6Ufv7l-A8a0dT7/view?usp=sharing" target="blank" role="button">Resume</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-<!-- collapse back after click on link 
-later well impelement the option to collapse back after clicking any item in the navbar,
-and will implement the transparent to solid back ground after collapsing -->
-<!-- Home page -->
+
+<!-- ------------------------------------------- -->
+<!-- me and what i do -->
+<!-- --------------------------------------------------- -->
+
+
 <div  class="container-fluid name">
       <h1 class="myname">Hi, my name is</h1>
       <h2 class="ali">Ali Joron.</h2>
@@ -65,7 +69,11 @@ and will implement the transparent to solid back ground after collapsing -->
         </div>
       </div>
     </div>
-    <!-- About me -->
+
+<!-- -------------------------------->
+<!-------------- about me ----------->
+<!-- -------------------------------- -- -->
+
 <div id="aboutme" class="container-fluid about"> 
   <h3 style="text-align: center; padding-top:2%; padding-bottom: 4%;  font-weight: bold;">About Me</h3>
   <div class="row">
@@ -73,7 +81,7 @@ and will implement the transparent to solid back ground after collapsing -->
       <div class="card" style="width: 100%;">
         <img src="pics/bachelor.png" style="width: 80px; height: 80px; align-self: center;" alt="">
         <div class="card-body">
-          <p>BSc- Information Systems with specialization in Cuber methology, during my ecucation gaint skills in: fron-end and back-end web development, Java,Python and data structures and algorithms.</p>
+          <p>BSc- Information Systems with specialization in Cuber methology, during my ecucation gained skills in: fron-end and back-end web development, Java,Python and data structures and algorithms.</p>
         </div>
       </div>
     </div>
@@ -81,7 +89,7 @@ and will implement the transparent to solid back ground after collapsing -->
       <div class="card" style="width: 100%; top: 1em;">
         <img src="pics/web-design.png" style="width: 80px; height: 80px; align-self: center;" alt="">
         <div class="card-body">
-          <p>Junior developer with comprehinsive knowledge in fron-end development, a little back-end and a lot of python.</p>
+          <p>Junior developer with comprehinsive knowledge in fron-end development, a little back-end and a lot of python, during the past years gained skils in many programmings languages, like: C#, Java, Python, Javescript, along-side to my extensive knowledge in Web development and design with HTML,Javascript and CSS .</p>
         </div>
       </div>
     </div>
@@ -95,9 +103,14 @@ and will implement the transparent to solid back ground after collapsing -->
     </div>
   </div>
 </div>
+
+<!-- ------------------------->
+<!------skills and tools------> 
+<!------------------------- -->
+
 <div id="skillsec" class="skills">
-   <h2 class="skills_title">SKILLS & TOOLS</h2>
-   <h3 class="skills_title2">My Toolbox & Things I Can Do</h3>
+   <h2 class="skills_work_title">SKILLS & TOOLS</h2>
+   <h3 class="skills_work_title2">My Toolbox & Things I Can Do</h3>
    <p class="skills_p_title">The skills, tools and technologies I use to bring your products to life:</p>  
    <div class="container-fluid icon_box">
    <div class="row" style="padding-top: 2em;">
@@ -158,35 +171,217 @@ and will implement the transparent to solid back ground after collapsing -->
     </div>
   </div>   
 </div>
-<!-- -----------------------------------------------
------------------------------------------------ -->
-<h3>Contact us</h3>
-<form id="fcf-form-id" class="fcf-form-class" method="post" action="send.php">
-        <label for="Name" class="fcf-label">Your name</label>
-        <div class="fcf-input-group">
-            <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+
+<!-- ----------------------------------------- -->
+<!-- ---------------work-------------------- -->
+<!-- -------------------------------------------- -->
+
+<div id="worksec" class="container-fluid work">
+
+  <h1 class="skills_work_title">Work</h1>
+  <h3 class="skills_work_title2">A Selection Of Stuff I've Built</h3>
+  <!-- first row in the work section -->
+
+        <div class="row" style="margin-top: 10%; margin-bottom: 5%;">
+          <!-- first col in the first row -->
+          <div class="col-12 col-lg-6" style="text-align: left;">
+            <img src="pics/work/us.png" class="work_img" alt="">
+          </div>
+          <!-- second col in the first row -->
+          <div class="col-12 col-lg-6">
+            <h1 class="work_title">US game</h1>
+            <p class="work_p">Knowledge quiz, check if you can find out if you can guess the name of the whole states in the United states</p>
+            <i class="fa-brands fa-python work_icons"></i>
+            <i class="devicon-pandas-original-wordmark work_icons"></i>
+            <img src="pics/work/turtle.png" class="work_icons work_turtle_icon" alt="">
+            <a  class="btn btn-success btn-lg work_btn" href="https://github.com/AliJoron/us-game" target="_blank" role="button">View Github Repo</a>
+          </div>
         </div>
-    <div class="fcf-form-group">
-        <label for="Email" class="fcf-label">Your email address</label>
-        <div class="fcf-input-group">
-            <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+        
+        <!-- second row in the work section -->
+
+        <div class="row srow" style="margin-bottom: 5%;">
+
+          <!-- first col in the second row -->
+          <div class="col-12 col-lg-6">
+            <h1 class="work_title">Pong Game</h1>
+            <p class="work_p">The famous Pong game, try to reach the maximum score and compete with others (on the same pc- multiplayer)</p>
+            <i class="fa-brands fa-python work_icons"></i>
+            <img src="pics/work/turtle.png" class="work_icons work_turtle_icon" alt="">
+            <a id="workbtns" class="btn btn-success btn-lg work_btn" href="https://github.com/AliJoron/pong-game" target="_blank" role="button">View Github Repo</a>
+          </div>
+
+          <!-- second col in the second row -->
+
+          <div class="col-12 col-lg-6 " >
+            <img src="pics/work/pong.png" class="work_img" alt="" >
+          </div>
         </div>
-    <div class="fcf-form-group">
-        <label for="Message" class="fcf-label">Your message</label>
-        <div class="fcf-input-group">
-            <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+   
+        <!-- third row in work section -->
+
+        <div class="row" style="margin-bottom: 5%;">
+
+          <!-- first col in the third row -->
+
+          <div class="col-12 col-lg-6">
+            <img src="pics/work/turtlecross.png" class="work_img" alt="">
+          </div>
+
+          <!-- second col in the third row -->
+
+          <div class="col-12 col-lg-6">
+            <h1 class="work_title">Turtle Cross Game</h1>
+            <p class="work_p">Turtle Corss, Try to cross the whole cars (squared shaped) and not to get run over</p>
+            <i class="fa-brands fa-python work_icons"></i>
+            <img src="pics/work/turtle.png" class="work_icons work_turtle_icon" alt="">
+            <a  class="btn btn-success btn-lg work_btn" href="https://github.com/AliJoron/turtle-cross" target="_blank" role="button">View Github Repo</a>
+          </div>
         </div>
+
+        <!-- fourth row in work section -->
+
+        <div class="row frow" style="margin-bottom: 5%;">
+
+          <!-- first col in the fourth row -->
+          <div class="col-12 col-lg-6">
+            <h1 class="work_title">Snake Game</h1>
+            <p class="work_p">The famous Snake game, try to reach the maximum score and compete with others (on the same pc- not multiplayer)</p>
+            <i class="fa-brands fa-python work_icons"></i>
+            <img src="pics/work/turtle.png" class="work_icons work_turtle_icon" alt="">
+            <a id="workbtnf" class="btn btn-success btn-lg work_btn" href="https://github.com/AliJoron/snake-game" target="_blank" role="button">View Github Repo</a>
+          </div>
+          <!-- second col in the fourth row -->
+          <div class="col-12 col-lg-6">
+            <img src="pics/work/snake.png" class="work_img" alt="">
+          </div>
+        </div>
+
+
+
+</div>
+<!-- ------------------------------------- -->
+<!-- This is the contact me section -->
+<!-- ---------------------------------------------- -->
+
+<div id="contactme" class="container-fluid contact">
+  <h3 class="contact_word">CONTACT </h3>
+  <div class="row">
+    <div class="col-12 col-lg-6">
+      <p class="contact_p">Dropping a line to say g’day, ask for my resume or see if we can build something amazing together? I’d love to hear from you!</p>
+
+      <!-- ----------------------------------- -->
+      <!-- -----------contact me form--------------- -->
+      <!-- --------------------------------------------- -->
+
+      <form action="https://formspree.io/f/meqnabqy" method="POST" >
+      <input class="contactboxes" type="text" name="name" id="name" required="required"  placeholder="Name">
+      <input class="contactboxes" type="email" name="E-Mail" id="email" placeholder="Email"><br>
+      <textarea class="contactboxes" name="message" id="message" placeholder="Message"></textarea><br>
+      <button id="subbtn" type="submit">Send</button>
+    </form>
     </div>
-    <div class="fcf-form-group">
-        <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Send</button>
+
+    <!-- -------------------------------- -->
+    <!-- ---------- contact icons---------- -->
+    <!-- ---------------------------------------- -->
+
+
+    <div class="col-12 col-lg-6 contact_icons" style="margin-top: 37%;">
+      <a href="https://github.com/AliJoron" target="_blank"><i class="fab fa-github fa-4x contact_item"></i></a>
+      <a href="https://www.linkedin.com/in/alijoron/" target="_blank"><i class="fab fa-linkedin-in fa-4x contact_item"></i></a>
+      <a href="https://www.instagram.com/alijoron/" target="_blank"><i class="fab fa-instagram fa-4x contact_item"></i></a>
+      <a href="https://www.facebook.com/ali.joron" target="_blank"><i class="fab fa-facebook fa-4x contact_item"></i></a>
     </div>
-<!-- This is for the who am i -->
+  </div>
+</div>
+
+<!-- -------------------------------------------- -->
+<!-- ------------------- credits---------------------- -->
+<!-- -------------------------------------------------- -->
 
 
+<div class="container-fluid credit">
+<h3 class="attribute_title">How i made a an awesome website</h3>
+<p class="attribute_p">Used Fontawesome alonside with Davicon in the about sction, and ofcourse the best icons website Flaticon</p>
+<h4 class="attribute_title2">Flaticon attribution</h4>
+</div>
+<section style="background-color: #ffcebf;">
+  <div class="container-fluid carcontain">
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+         <a href="https://www.flaticon.com/free-icons/flaticon"><img  src="pics/attributes/flaticon.png" class="d-block w-100 attpic" alt="..." title="Created By Freepik"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.flaticon.com/free-icons/flaticon"  class="attlabel">Created By Freepik</a>
+          </div>
+        </div>
+
+        <!-- ------------------------------------------- -->
+        <!-- -------------- credits automatic slides--------------- -->
+        <!-- --------------------------------------------------- -->
 
 
+        <div class="carousel-item">
+         <a href="https://www.flaticon.com/free-icons/bachelor"><img src="pics/bachelor.png" class="d-block w-100 attpic" alt="..." title="Created By Iconnut"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.flaticon.com/free-icons/bachelor"  class="attlabel">Created By Iconnut</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flaticon.com/free-icons/support"><img src="pics/technical-support.png" class="d-block w-100 attpic" alt="..." title="Created By Srip"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.flaticon.com/free-icons/support"  class="attlabel">Created By Srip</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="https://www.flaticon.com/free-icons/responsive"><img src="pics/attributes/responsive.png" class="d-block w-100 attpic" alt="" title="Created By Xnimrodx"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.flaticon.com/free-icons/responsive"  class="attlabel">Created By Xnimrodx</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+         <a href="https://www.flaticon.com/free-icons/graphic-design"><img src="pics/web-design.png" class="d-block w-100 attpic" alt="..." title="Created By Freepik"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.flaticon.com/free-icons/graphic-design"  class="attlabel">Created By Freepik</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+         <a href="https://www.flaticon.com/free-icons/code"><img src="pics/web-programming.png" class="d-block w-100 attpic" alt="..."  title="Created By Icongeek26"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.flaticon.com/free-icons/code"  class="attlabel">Created By Icongeek26</a>
+          </div>
+        </div>
+        <div class="carousel-item">
+         <a href="https://www.flaticon.com/free-icons/alphabet"><img src="pics/attributes/ali.ico" class="d-block w-100 attpic" alt="..." title="Created By Freepik"></a>
+          <div class="carousel-caption d-none d-md-block">
+            <a href="https://www.flaticon.com/free-icons/alphabet"  class="attlabel">Created By Freepik</a>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="control_prev"><</span>
+        <span class="visually-hidden" >Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" >
+        <span class="control_next">></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <div class="container-fluid" style="background-color: #e1b4e5; text-align: center;padding: 1% 1%;">© 2022 | Designed & coded with 💙 by Ali Joron</div>
+</section>
 
 
-
+<script src="script.js"></script>
 </body>
 </html>
