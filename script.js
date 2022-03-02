@@ -54,7 +54,7 @@ message.addEventListener('focusout', () => {message.style.fontSize = "150%";});
 
 // add icon to the submit button in the contact form when hovering 
 
-document.querySelector("#subbtn").addEventListener('mouseenter', ()=>{document.querySelector("#subbtn").innerHTML+="<span><i class='fa-solid fa-envelope' style='color: white; padding-left :25%; font-size: 25px;'></i></span>"})
+document.querySelector("#subbtn").addEventListener('mouseenter', ()=>{document.querySelector("#subbtn").innerHTML="Send   <i class='fa-solid fa-envelope' style='color: white; font-size: 25px;'></i>"})
 document.querySelector("#subbtn").addEventListener('mouseleave', ()=>{document.querySelector("#subbtn").innerHTML="Send"});
 
 
